@@ -21,7 +21,7 @@
 }
 
 .con {
-  margin: 50px 15%;
+  margin: 0px 15%;
   border: 1px solid #a5a5a5;
 }
 
@@ -207,4 +207,128 @@ ol {
 
 .fw-bold {
   font-weight: bold;
+}
+
+@media(max-width:1024px) {
+  .con {
+    margin: 0px 7%;
+  }
+
+  .employee-body {
+    flex-direction: column;
+  }
+
+  .trimex-sands {
+    width: 40%;
+  }
+
+  .img-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .corporate_men {
+    width: 50%;
+  }
+
+  .d-flex-col {
+    padding-bottom: 17px;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .left-card {
+    width: 100%;
+  }
+
+  .right-card {
+    margin-left: 0px;
+    padding: 20px;
+  }
+}
+
+@media (max-width:768px) {
+  .con {
+    margin: 0px 7%;
+  }
+
+  .employee-body {
+    flex-direction: column;
+  }
+
+  .trimex-sands {
+    width: 40%;
+  }
+
+  .img-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .corporate_men {
+    width: 50%;
+  }
+
+  .d-flex-col {
+    padding-bottom: 17px;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .left-card {
+    width: 100%;
+  }
+
+  .right-card {
+    margin-left: 0px;
+    padding: 20px;
+  }
+}
+
+@media(max-width:425px) {
+  .trimex-sands {
+    width: 80%;
+  }
+
+  .corporate_men {
+    width: 93%;
+  }
+
+  .text-end {
+    font-size: x-large;
+  }
+
+  .girl_img {
+    width: 100%;
+  }
+
+  .left-card>p {
+    font-size: 18px;
+  }
+
+  .right-card>p,
+  .right-card>p>span {
+    font-size: 19px;
+  }
+
+  .employee-right-card {
+    text-align: center;
+  }
+
+  .employee-right-card>img {
+    width: 75%;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+
+  p,
+  li {
+    font-size: 16px;
+  }
 }
